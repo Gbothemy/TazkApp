@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Available Tasks - TaskPay</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Available Tasks - TazkApp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">TaskPay</div>
-            <ul>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="tasks.html">Available Tasks</a></li>
-                <li><a href="earnings.html">My Earnings</a></li>
-                <li><a href="#" id="logout">Logout</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">TazkApp</div>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="tasks.html">Available Tasks</a></li>
+          <li><a href="earnings.html">My Earnings</a></li>
+          <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="tasks-page">
-        <h1>Available Tasks</h1>
-        
-        <section class="task-filters">
-            <input type="text" id="task-search" placeholder="Search tasks...">
-            <select id="task-category">
-                <option value="">All Categories</option>
-                <option value="data-entry">Data Entry</option>
-                <option value="content-writing">Content Writing</option>
-                <option value="image-tagging">Image Tagging</option>
-                <!-- Add more categories as needed -->
-            </select>
-            <select id="task-sort">
-                <option value="newest">Newest First</option>
-                <option value="highest-pay">Highest Pay</option>
-                <option value="easiest">Easiest</option>
-            </select>
-        </section>
+      <h1>Available Tasks</h1>
 
-        <section id="task-list">
-            <!-- Tasks will be dynamically added here -->
-        </section>
+      <section class="task-filters">
+        <input type="text" id="task-search" placeholder="Search tasks..." />
+        <select id="task-category">
+          <option value="">All Categories</option>
+          <option value="data-entry">Data Entry</option>
+          <option value="content-writing">Content Writing</option>
+          <option value="image-tagging">Image Tagging</option>
+          <!-- Add more categories as needed -->
+        </select>
+        <select id="task-sort">
+          <option value="newest">Newest First</option>
+          <option value="highest-pay">Highest Pay</option>
+          <option value="easiest">Easiest</option>
+        </select>
+      </section>
 
-        <template id="task-template">
-            <div class="task-card">
-                <h3 class="task-title"></h3>
-                <p class="task-description"></p>
-                <div class="task-details">
-                    <span class="task-pay"></span>
-                    <span class="task-time"></span>
-                    <span class="task-category"></span>
-                </div>
-                <button class="btn-primary start-task">Start Task</button>
-            </div>
-        </template>
+      <section id="task-list">
+        <!-- Tasks will be dynamically added here -->
+      </section>
+
+      <template id="task-template">
+        <div class="task-card">
+          <h3 class="task-title"></h3>
+          <p class="task-description"></p>
+          <div class="task-details">
+            <span class="task-pay"></span>
+            <span class="task-time"></span>
+            <span class="task-category"></span>
+          </div>
+          <button class="btn-primary start-task">Start Task</button>
+        </div>
+      </template>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="logo">TaskPay</div>
-            <ul>
-                <li><a href="terms.html">Terms of Service</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="copyright">© 2023 TaskPay. All rights reserved.</div>
+      <div class="footer-content">
+        <div class="logo">TazkApp</div>
+        <ul>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="copyright">© 2023 TazkApp. All rights reserved.</div>
     </footer>
 
     <script src="tasks.js"></script>
-</body>
+  </body>
 </html>

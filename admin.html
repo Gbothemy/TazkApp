@@ -1,107 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskPay Admin Panel</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TazkApp Admin Panel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">TaskPay Admin</div>
-            <ul>
-                <li><a href="#dashboard">Dashboard</a></li>
-                <li><a href="#tasks">Manage Tasks</a></li>
-                <li><a href="#users">Manage Users</a></li>
-                <li><a href="#payments">Payments</a></li>
-                <li><a href="#" id="admin-logout">Logout</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">TazkApp Admin</div>
+        <ul>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#tasks">Manage Tasks</a></li>
+          <li><a href="#users">Manage Users</a></li>
+          <li><a href="#payments">Payments</a></li>
+          <li><a href="#" id="admin-logout">Logout</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="admin-panel">
-        <section id="dashboard" class="admin-section">
-            <h1>Admin Dashboard</h1>
-            <div class="admin-summary">
-                <div class="summary-card">
-                    <h3>Total Users</h3>
-                    <p id="total-users">0</p>
-                </div>
-                <div class="summary-card">
-                    <h3>Active Tasks</h3>
-                    <p id="active-tasks">0</p>
-                </div>
-                <div class="summary-card">
-                    <h3>Total Earnings</h3>
-                    <p id="total-platform-earnings">$0.00</p>
-                </div>
-            </div>
-        </section>
+      <section id="dashboard" class="admin-section">
+        <h1>Admin Dashboard</h1>
+        <div class="admin-summary">
+          <div class="summary-card">
+            <h3>Total Users</h3>
+            <p id="total-users">0</p>
+          </div>
+          <div class="summary-card">
+            <h3>Active Tasks</h3>
+            <p id="active-tasks">0</p>
+          </div>
+          <div class="summary-card">
+            <h3>Total Earnings</h3>
+            <p id="total-platform-earnings">$0.00</p>
+          </div>
+        </div>
+      </section>
 
-        <section id="tasks" class="admin-section">
-            <h2>Manage Tasks</h2>
-            <button id="add-task" class="btn-primary">Add New Task</button>
-            <table id="task-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Title</th>
-                        <th>Category</th>
-                        <th>Pay</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Task rows will be dynamically added here -->
-                </tbody>
-            </table>
-        </section>
+      <section id="tasks" class="admin-section">
+        <h2>Manage Tasks</h2>
+        <button id="add-task" class="btn-primary">Add New Task</button>
+        <table id="task-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Pay</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Task rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </section>
 
-        <section id="users" class="admin-section">
-            <h2>Manage Users</h2>
-            <table id="user-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Tasks Completed</th>
-                        <th>Total Earnings</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- User rows will be dynamically added here -->
-                </tbody>
-            </table>
-        </section>
+      <section id="users" class="admin-section">
+        <h2>Manage Users</h2>
+        <table id="user-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Tasks Completed</th>
+              <th>Total Earnings</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- User rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </section>
 
-        <section id="payments" class="admin-section">
-            <h2>Payments</h2>
-            <table id="payment-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>User</th>
-                        <th>Amount</th>
-                        <th>Date</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Payment rows will be dynamically added here -->
-                </tbody>
-            </table>
-        </section>
+      <section id="payments" class="admin-section">
+        <h2>Payments</h2>
+        <table id="payment-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>User</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Payment rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </section>
     </main>
 
     <footer>
-        <div class="copyright">© 2023 TaskPay Admin. All rights reserved.</div>
+      <div class="copyright">© 2025 TazkApp Admin. All rights reserved.</div>
     </footer>
 
     <script src="admin.js"></script>
-</body>
+  </body>
 </html>
